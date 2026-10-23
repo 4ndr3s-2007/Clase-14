@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Galería · Desarrollo de software</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="empresa.html" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>Galería</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Galería de desarrollo de software</h1>
+        <p class="lead text-muted">Un recorrido visual por las herramientas y conceptos del día a día de un desarrollador: código, terminal, Git, bases de datos, diseño web, depuración, nube, APIs y metodologías ágiles.</p>
+        <p>
+          <a href="empresa.html" class="btn btn-primary my-2">Volver a Empresa</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container pb-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div id="galeriaCarousel" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-indicators"><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="3" aria-label="Diapositiva 4"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="4" aria-label="Diapositiva 5"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="5" aria-label="Diapositiva 6"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="6" aria-label="Diapositiva 7"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="7" aria-label="Diapositiva 8"></button><button type="button" data-bs-target="#galeriaCarousel" data-bs-slide-to="8" aria-label="Diapositiva 9"></button></div>
+          <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Editor de código" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Editor de código</title><rect width="400" height="380" fill="#11111b"/><rect x="30" y="25" width="340" height="175" rx="8" fill="#1e1e2e"/><circle cx="48" cy="42" r="5" fill="#ff5f56"/><circle cx="64" cy="42" r="5" fill="#ffbd2e"/><circle cx="80" cy="42" r="5" fill="#27c93f"/><rect x="30" y="55" width="40" height="145" fill="#181825"/><text x="42" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">1</text><text x="42" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">2</text><text x="42" y="128" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">3</text><text x="42" y="152" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">4</text><text x="42" y="176" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">5</text><text x="85" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cba6f7" xml:space="preserve">function</text><text x="152.2" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#89b4fa" xml:space="preserve"> saludar</text><text x="219.39999999999998" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">() {</text><text x="105" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cba6f7" xml:space="preserve">const</text><text x="147.0" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve"> x = </text><text x="189.0" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#a6e3a1" xml:space="preserve">"Hola"</text><text x="239.4" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">;</text><text x="105" y="128" font-family="Consolas,Menlo,monospace" font-size="14" fill="#f9e2af" xml:space="preserve">console</text><text x="163.8" y="128" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">.log(x);</text><text x="85" y="152" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">}</text><text x="85" y="176" font-family="Consolas,Menlo,monospace" font-size="14" fill="#89b4fa" xml:space="preserve">saludar();</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Editor de código</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Terminal</title><rect width="400" height="380" fill="#010409"/><rect x="30" y="25" width="340" height="175" rx="8" fill="#0d1117"/><rect x="30" y="25" width="340" height="24" rx="8" fill="#30363d"/><text x="200" y="42" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">terminal</text><text x="45" y="75" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950" xml:space="preserve">$ </text><text x="61.8" y="75" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve">npm install</text><text x="45" y="99" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8b949e" xml:space="preserve">added 128 packages</text><text x="45" y="123" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950" xml:space="preserve">$ </text><text x="61.8" y="123" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve">npm run dev</text><text x="45" y="147" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8b949e" xml:space="preserve">Servidor en </text><text x="145.8" y="147" font-family="Consolas,Menlo,monospace" font-size="14" fill="#58a6ff" xml:space="preserve">localhost:3000</text><text x="45" y="171" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950" xml:space="preserve">$ </text><text x="61.8" y="171" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve">█</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Terminal</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Control de versiones" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Control de versiones</title><rect width="400" height="380" fill="#0d1117"/><path d="M60 70 H340" stroke="#58a6ff" stroke-width="4"/><path d="M130 70 C150 70 150 150 175 150 H265 C285 150 285 70 300 70" stroke="#f78166" stroke-width="4" fill="none"/><circle cx="60" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="130" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="220" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="300" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="340" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="175" cy="150" r="9" fill="#0d1117" stroke="#f78166" stroke-width="4"/><circle cx="220" cy="150" r="9" fill="#0d1117" stroke="#f78166" stroke-width="4"/><circle cx="265" cy="150" r="9" fill="#0d1117" stroke="#f78166" stroke-width="4"/><text x="60" y="48" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">main</text><text x="175" y="185" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">feature/login</text><text x="270" y="48" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">merge</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Control de versiones</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bases de datos" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bases de datos</title><rect width="400" height="380" fill="#0d1117"/><path d="M130 55 v95 a70 22 0 0 0 140 0 v-95z" fill="#1f6feb" stroke="#79c0ff" stroke-width="2"/><ellipse cx="200" cy="55" rx="70" ry="22" fill="#388bfd" stroke="#79c0ff" stroke-width="2"/><path d="M130 90 a70 22 0 0 0 140 0M130 122 a70 22 0 0 0 140 0" stroke="#79c0ff" stroke-width="2" fill="none"/><text x="200" y="205" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">SELECT * FROM usuarios;</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Bases de datos</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diseño responsive" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Diseño responsive</title><rect width="400" height="380" fill="#0d1b2a"/><rect x="30" y="35" width="230" height="150" rx="8" fill="#e6edf3"/><rect x="30" y="35" width="230" height="22" rx="8" fill="#8b949e"/><rect x="45" y="70" width="90" height="55" fill="#58a6ff"/><rect x="145" y="70" width="100" height="12" fill="#8b949e"/><rect x="145" y="92" width="100" height="12" fill="#8b949e"/><rect x="145" y="114" width="70" height="12" fill="#8b949e"/><rect x="45" y="138" width="200" height="12" fill="#adbac7"/><rect x="45" y="160" width="140" height="12" fill="#adbac7"/><rect x="285" y="55" width="75" height="130" rx="12" fill="#161b22" stroke="#8b949e" stroke-width="3"/><rect x="295" y="75" width="55" height="40" fill="#58a6ff"/><rect x="295" y="124" width="55" height="9" fill="#8b949e"/><rect x="295" y="140" width="40" height="9" fill="#adbac7"/></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Diseño responsive</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Depuración" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Depuración</title><rect width="400" height="380" fill="#161b22"/><g stroke="#f85149" stroke-width="5" stroke-linecap="round"><path d="M165 105 L135 90M165 125 L130 125M165 145 L135 162M235 105 L265 90M235 125 L270 125M235 145 L265 162M185 75 L170 52M215 75 L230 52"/></g><ellipse cx="200" cy="128" rx="38" ry="48" fill="#f85149"/><circle cx="200" cy="80" r="22" fill="#da3633"/><path d="M200 90 V175" stroke="#161b22" stroke-width="3"/><circle cx="190" cy="128" r="6" fill="#161b22"/><circle cx="210" cy="148" r="6" fill="#161b22"/><text x="200" y="212" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#f85149">Error: undefined is not a function</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Depuración</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Despliegue en la nube" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Despliegue en la nube</title><rect width="400" height="380" fill="#0b2545"/><path d="M120 150 a38 38 0 0 1 8-75 a55 55 0 0 1 105-10 a45 45 0 0 1 40 85z" fill="#e6edf3"/><g stroke="#58a6ff" stroke-width="4" stroke-linecap="round" fill="none"><path d="M165 170 V132M150 147 L165 132 L180 147M235 132 V170M220 155 L235 170 L250 155"/></g><text x="200" y="208" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">deploy → producción</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Despliegue en la nube</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="APIs REST" preserveAspectRatio="xMidYMid slice" focusable="false"><title>APIs REST</title><rect width="400" height="380" fill="#0d1117"/><text x="200" y="125" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="80" fill="#3fb950">{ }</text><text x="200" y="160" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">GET /api/productos</text><text x="200" y="185" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#58a6ff">200 OK · application/json</text></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">APIs REST</h5></div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img d-block w-100" width="100%" height="380" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Metodologías ágiles" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Metodologías ágiles</title><rect width="400" height="380" fill="#0d1117"/><rect x="30" y="30" width="100" height="165" rx="6" fill="#161b22" stroke="#30363d"/><text x="80" y="52" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#d29922">Por hacer</text><rect x="40" y="65" width="80" height="30" rx="4" fill="#d29922" opacity=".85"/><rect x="40" y="103" width="80" height="30" rx="4" fill="#d29922" opacity=".85"/><rect x="40" y="141" width="80" height="30" rx="4" fill="#d29922" opacity=".85"/><rect x="150" y="30" width="100" height="165" rx="6" fill="#161b22" stroke="#30363d"/><text x="200" y="52" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#58a6ff">En curso</text><rect x="160" y="65" width="80" height="30" rx="4" fill="#58a6ff" opacity=".85"/><rect x="160" y="103" width="80" height="30" rx="4" fill="#58a6ff" opacity=".85"/><rect x="270" y="30" width="100" height="165" rx="6" fill="#161b22" stroke="#30363d"/><text x="320" y="52" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950">Hecho</text><rect x="280" y="65" width="80" height="30" rx="4" fill="#3fb950" opacity=".85"/><rect x="280" y="103" width="80" height="30" rx="4" fill="#3fb950" opacity=".85"/><rect x="280" y="141" width="80" height="30" rx="4" fill="#3fb950" opacity=".85"/></svg>
+          <div class="carousel-caption d-none d-md-block"><h5 class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Metodologías ágiles</h5></div>
+        </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Editor de código" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Editor de código</title><rect width="400" height="225" fill="#11111b"/><rect x="30" y="25" width="340" height="175" rx="8" fill="#1e1e2e"/><circle cx="48" cy="42" r="5" fill="#ff5f56"/><circle cx="64" cy="42" r="5" fill="#ffbd2e"/><circle cx="80" cy="42" r="5" fill="#27c93f"/><rect x="30" y="55" width="40" height="145" fill="#181825"/><text x="42" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">1</text><text x="42" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">2</text><text x="42" y="128" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">3</text><text x="42" y="152" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">4</text><text x="42" y="176" font-family="Consolas,Menlo,monospace" font-size="14" fill="#585b70">5</text><text x="85" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cba6f7" xml:space="preserve">function</text><text x="152.2" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#89b4fa" xml:space="preserve"> saludar</text><text x="219.39999999999998" y="80" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">() {</text><text x="105" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cba6f7" xml:space="preserve">const</text><text x="147.0" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve"> x = </text><text x="189.0" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#a6e3a1" xml:space="preserve">"Hola"</text><text x="239.4" y="104" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">;</text><text x="105" y="128" font-family="Consolas,Menlo,monospace" font-size="14" fill="#f9e2af" xml:space="preserve">console</text><text x="163.8" y="128" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">.log(x);</text><text x="85" y="152" font-family="Consolas,Menlo,monospace" font-size="14" fill="#cdd6f4" xml:space="preserve">}</text><text x="85" y="176" font-family="Consolas,Menlo,monospace" font-size="14" fill="#89b4fa" xml:space="preserve">saludar();</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Editor de código.</strong> Escribir código limpio y bien organizado es la base de cualquier proyecto de software.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Terminal</title><rect width="400" height="225" fill="#010409"/><rect x="30" y="25" width="340" height="175" rx="8" fill="#0d1117"/><rect x="30" y="25" width="340" height="24" rx="8" fill="#30363d"/><text x="200" y="42" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">terminal</text><text x="45" y="75" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950" xml:space="preserve">$ </text><text x="61.8" y="75" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve">npm install</text><text x="45" y="99" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8b949e" xml:space="preserve">added 128 packages</text><text x="45" y="123" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950" xml:space="preserve">$ </text><text x="61.8" y="123" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve">npm run dev</text><text x="45" y="147" font-family="Consolas,Menlo,monospace" font-size="14" fill="#8b949e" xml:space="preserve">Servidor en </text><text x="145.8" y="147" font-family="Consolas,Menlo,monospace" font-size="14" fill="#58a6ff" xml:space="preserve">localhost:3000</text><text x="45" y="171" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950" xml:space="preserve">$ </text><text x="61.8" y="171" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve">█</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Terminal.</strong> La línea de comandos permite instalar dependencias, compilar y ejecutar servidores.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Control de versiones" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Control de versiones</title><rect width="400" height="225" fill="#0d1117"/><path d="M60 70 H340" stroke="#58a6ff" stroke-width="4"/><path d="M130 70 C150 70 150 150 175 150 H265 C285 150 285 70 300 70" stroke="#f78166" stroke-width="4" fill="none"/><circle cx="60" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="130" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="220" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="300" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="340" cy="70" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><circle cx="175" cy="150" r="9" fill="#0d1117" stroke="#f78166" stroke-width="4"/><circle cx="220" cy="150" r="9" fill="#0d1117" stroke="#f78166" stroke-width="4"/><circle cx="265" cy="150" r="9" fill="#0d1117" stroke="#f78166" stroke-width="4"/><text x="60" y="48" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">main</text><text x="175" y="185" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">feature/login</text><text x="270" y="48" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">merge</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Control de versiones.</strong> Con Git el equipo trabaja en ramas y fusiona los cambios sin perder el historial.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bases de datos" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bases de datos</title><rect width="400" height="225" fill="#0d1117"/><path d="M130 55 v95 a70 22 0 0 0 140 0 v-95z" fill="#1f6feb" stroke="#79c0ff" stroke-width="2"/><ellipse cx="200" cy="55" rx="70" ry="22" fill="#388bfd" stroke="#79c0ff" stroke-width="2"/><path d="M130 90 a70 22 0 0 0 140 0M130 122 a70 22 0 0 0 140 0" stroke="#79c0ff" stroke-width="2" fill="none"/><text x="200" y="205" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">SELECT * FROM usuarios;</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Bases de datos.</strong> Las bases de datos almacenan y consultan la información que usan las aplicaciones.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diseño responsive" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Diseño responsive</title><rect width="400" height="225" fill="#0d1b2a"/><rect x="30" y="35" width="230" height="150" rx="8" fill="#e6edf3"/><rect x="30" y="35" width="230" height="22" rx="8" fill="#8b949e"/><rect x="45" y="70" width="90" height="55" fill="#58a6ff"/><rect x="145" y="70" width="100" height="12" fill="#8b949e"/><rect x="145" y="92" width="100" height="12" fill="#8b949e"/><rect x="145" y="114" width="70" height="12" fill="#8b949e"/><rect x="45" y="138" width="200" height="12" fill="#adbac7"/><rect x="45" y="160" width="140" height="12" fill="#adbac7"/><rect x="285" y="55" width="75" height="130" rx="12" fill="#161b22" stroke="#8b949e" stroke-width="3"/><rect x="295" y="75" width="55" height="40" fill="#58a6ff"/><rect x="295" y="124" width="55" height="9" fill="#8b949e"/><rect x="295" y="140" width="40" height="9" fill="#adbac7"/></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Diseño responsive.</strong> Las interfaces se adaptan a computador, tableta y celular.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Depuración" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Depuración</title><rect width="400" height="225" fill="#161b22"/><g stroke="#f85149" stroke-width="5" stroke-linecap="round"><path d="M165 105 L135 90M165 125 L130 125M165 145 L135 162M235 105 L265 90M235 125 L270 125M235 145 L265 162M185 75 L170 52M215 75 L230 52"/></g><ellipse cx="200" cy="128" rx="38" ry="48" fill="#f85149"/><circle cx="200" cy="80" r="22" fill="#da3633"/><path d="M200 90 V175" stroke="#161b22" stroke-width="3"/><circle cx="190" cy="128" r="6" fill="#161b22"/><circle cx="210" cy="148" r="6" fill="#161b22"/><text x="200" y="212" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#f85149">Error: undefined is not a function</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Depuración.</strong> Encontrar y corregir errores (debugging) es parte del día a día del desarrollador.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Despliegue en la nube" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Despliegue en la nube</title><rect width="400" height="225" fill="#0b2545"/><path d="M120 150 a38 38 0 0 1 8-75 a55 55 0 0 1 105-10 a45 45 0 0 1 40 85z" fill="#e6edf3"/><g stroke="#58a6ff" stroke-width="4" stroke-linecap="round" fill="none"><path d="M165 170 V132M150 147 L165 132 L180 147M235 132 V170M220 155 L235 170 L250 155"/></g><text x="200" y="208" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">deploy → producción</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Despliegue en la nube.</strong> Publicar la aplicación en servidores en la nube para que los usuarios la usen.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="APIs REST" preserveAspectRatio="xMidYMid slice" focusable="false"><title>APIs REST</title><rect width="400" height="225" fill="#0d1117"/><text x="200" y="125" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="80" fill="#3fb950">{ }</text><text x="200" y="160" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#c9d1d9">GET /api/productos</text><text x="200" y="185" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#58a6ff">200 OK · application/json</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>APIs REST.</strong> Las APIs conectan el frontend con el backend intercambiando datos en JSON.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Metodologías ágiles" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Metodologías ágiles</title><rect width="400" height="225" fill="#0d1117"/><rect x="30" y="30" width="100" height="165" rx="6" fill="#161b22" stroke="#30363d"/><text x="80" y="52" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#d29922">Por hacer</text><rect x="40" y="65" width="80" height="30" rx="4" fill="#d29922" opacity=".85"/><rect x="40" y="103" width="80" height="30" rx="4" fill="#d29922" opacity=".85"/><rect x="40" y="141" width="80" height="30" rx="4" fill="#d29922" opacity=".85"/><rect x="150" y="30" width="100" height="165" rx="6" fill="#161b22" stroke="#30363d"/><text x="200" y="52" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#58a6ff">En curso</text><rect x="160" y="65" width="80" height="30" rx="4" fill="#58a6ff" opacity=".85"/><rect x="160" y="103" width="80" height="30" rx="4" fill="#58a6ff" opacity=".85"/><rect x="270" y="30" width="100" height="165" rx="6" fill="#161b22" stroke="#30363d"/><text x="320" y="52" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="14" fill="#3fb950">Hecho</text><rect x="280" y="65" width="80" height="30" rx="4" fill="#3fb950" opacity=".85"/><rect x="280" y="103" width="80" height="30" rx="4" fill="#3fb950" opacity=".85"/><rect x="280" y="141" width="80" height="30" rx="4" fill="#3fb950" opacity=".85"/></svg>
+
+            <div class="card-body">
+              <p class="card-text"><strong>Metodologías ágiles.</strong> Tableros tipo Kanban para organizar tareas y avanzar en equipo por sprints.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="empresa.html">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
